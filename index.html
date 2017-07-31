@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Twitch Streamers</title>
+    <meta content="Browser to find streamers in twitch. An intermediate project in Free Code Camp" name="description">
+    <meta content="twitch, browser, streamers, tv, free code camp, fcc" name="keywords">
+
+    <!-- EXTERNAL LINKS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body data-spy="scroll" data-target="#navbarId">
+
+<!--NAVBAR-->
+
+<header>
+    <div class="row align-items-center">
+        <div class="col-md-1 col-sm-1"></div>
+
+        <div class="col-md-4 col-sm-4 col-12 text-center">
+            <a href="#"><img src="images/twitch%20logo_opt.png"></a>
+        </div>
+
+        <div class="col-md-3 col-sm-2"></div>
+
+        <div class="col-md-3 col-sm-5 col-12 text-center">
+            <div class="btn-group" role="group">
+                <button class="btn btn-link active" id="all">All</button>
+                <button class="btn btn-link" id="online">Online</button>
+                <button class="btn btn-link" id="offline">Offline</button>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-8" id="twitchDiv">
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--SCRIPTS-->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="vendor/bootstrap.min.js"></script>
+<script src="vendor/ie10-viewport-bug-workaround.js"></script>
+
+
+<script src="twitch.js"></script>
+
+</body>
+
+</html>

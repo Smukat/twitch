@@ -1,0 +1,87 @@
+.container {
+    width: 80%;
+}
+
+header {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    background-color: #292b2c;
+}
+
+header img {
+    padding-bottom: 1em;
+}
+
+.btn-link {
+    color: #a7b5bd;
+
+}
+
+.btn-link:hover, .btn-link:visited, .btn-link:focus {
+    text-decoration: none;
+    color: #bae7fa;
+}
+
+
+
+.active {
+    color: #c4bafa;
+    font-weight: bold;
+}
+
+
+#twitchBox {
+    padding: 1em 1em 0.5em 1em;
+    border: 1px solid #292b2c;
+
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.online {
+    background-color: #e6edd9;
+}
+
+.offline {
+    background-color: #efd5ce;
+}
+
+#logo {
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+}
+
+#streamer {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+
+/*PHONES*/
+
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    #logo {
+        width: 5em;
+        height: 5em;
+    }
+
+
+}
