@@ -1,5 +1,5 @@
 .container {
-    width: 80%;
+    width: 70%;
 }
 
 header {
@@ -47,11 +47,11 @@ header img {
 }
 
 .online {
-    background-color: #e6edd9;
+    background-color: #d7ffbd;
 }
 
 .offline {
-    background-color: #efd5ce;
+    background-color: #fac0ba;
 }
 
 #logo {
@@ -61,11 +61,15 @@ header img {
 }
 
 #streamer {
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+
 
 }
 
+#game {
+    font-family: 'Droid Sans', sans-serif;
+
+}
 
 
 
